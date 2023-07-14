@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jwt.mongodb.models;
+package it.alldone.regionecalabria.cruscotto.models;
 
 import java.util.HashSet;
 import java.util.Set;

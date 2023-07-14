@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jwt.mongodb.payload.response;
+package it.alldone.regionecalabria.cruscotto.payload.response;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jwt.mongodb.controllers;
+package it.alldone.regionecalabria.cruscotto.controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -20,17 +20,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bezkoder.spring.jwt.mongodb.models.ERole;
-import com.bezkoder.spring.jwt.mongodb.models.Role;
-import com.bezkoder.spring.jwt.mongodb.models.User;
-import com.bezkoder.spring.jwt.mongodb.payload.request.LoginRequest;
-import com.bezkoder.spring.jwt.mongodb.payload.request.SignupRequest;
-import com.bezkoder.spring.jwt.mongodb.payload.response.JwtResponse;
-import com.bezkoder.spring.jwt.mongodb.payload.response.MessageResponse;
-import com.bezkoder.spring.jwt.mongodb.repository.RoleRepository;
-import com.bezkoder.spring.jwt.mongodb.repository.UserRepository;
-import com.bezkoder.spring.jwt.mongodb.security.jwt.JwtUtils;
-import com.bezkoder.spring.jwt.mongodb.security.services.UserDetailsImpl;
+import it.alldone.regionecalabria.cruscotto.models.ERole;
+import it.alldone.regionecalabria.cruscotto.models.Role;
+import it.alldone.regionecalabria.cruscotto.models.User;
+import it.alldone.regionecalabria.cruscotto.payload.request.LoginRequest;
+import it.alldone.regionecalabria.cruscotto.payload.request.SignupRequest;
+import it.alldone.regionecalabria.cruscotto.payload.response.JwtResponse;
+import it.alldone.regionecalabria.cruscotto.payload.response.MessageResponse;
+import it.alldone.regionecalabria.cruscotto.repository.RoleRepository;
+import it.alldone.regionecalabria.cruscotto.repository.UserRepository;
+import it.alldone.regionecalabria.cruscotto.security.jwt.JwtUtils;
+import it.alldone.regionecalabria.cruscotto.security.services.UserDetailsImpl;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

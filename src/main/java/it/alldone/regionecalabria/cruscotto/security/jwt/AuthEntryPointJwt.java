@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jwt.mongodb.security.jwt;
+package it.alldone.regionecalabria.cruscotto.security.jwt;
 
 import java.io.IOException;
 

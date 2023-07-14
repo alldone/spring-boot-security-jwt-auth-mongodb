@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jwt.mongodb.security.jwt;
+package it.alldone.regionecalabria.cruscotto.security.jwt;
 
 import java.security.Key;
 import java.util.Date;
@@ -9,12 +9,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
-import com.bezkoder.spring.jwt.mongodb.security.services.UserDetailsImpl;
-import com.bezkoder.spring.jwt.mongodb.security.jwt.JwtUtils;
-
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+import it.alldone.regionecalabria.cruscotto.security.jwt.JwtUtils;
+import it.alldone.regionecalabria.cruscotto.security.services.UserDetailsImpl;
 
 @Component
 public class JwtUtils {

@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jwt.mongodb.models;
+package it.alldone.regionecalabria.cruscotto.models;
 
 public enum ERole {
   ROLE_USER,

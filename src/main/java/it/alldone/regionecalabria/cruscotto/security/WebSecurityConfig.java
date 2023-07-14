@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jwt.mongodb.security;
+package it.alldone.regionecalabria.cruscotto.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -17,9 +17,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.bezkoder.spring.jwt.mongodb.security.jwt.AuthEntryPointJwt;
-import com.bezkoder.spring.jwt.mongodb.security.jwt.AuthTokenFilter;
-import com.bezkoder.spring.jwt.mongodb.security.services.UserDetailsServiceImpl;
+import it.alldone.regionecalabria.cruscotto.security.jwt.AuthEntryPointJwt;
+import it.alldone.regionecalabria.cruscotto.security.jwt.AuthTokenFilter;
+import it.alldone.regionecalabria.cruscotto.security.services.UserDetailsServiceImpl;
 
 @Configuration
 //@EnableWebSecurity

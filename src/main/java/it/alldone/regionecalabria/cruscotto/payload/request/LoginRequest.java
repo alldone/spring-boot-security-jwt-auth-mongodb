@@ -1,4 +1,4 @@
-package com.bezkoder.spring.jwt.mongodb.payload.request;
+package it.alldone.regionecalabria.cruscotto.payload.request;
 
 import jakarta.validation.constraints.NotBlank;
 
